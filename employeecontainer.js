@@ -119,7 +119,7 @@ const getEmployees = () => {
     employeeArr = [{
         "ID": 1,
         "who": "Pratibha Krishnan",
-        "phone": "9903988115",
+        "phone": "8989343843",
         "pic": "Pratibha.jpg",
         "designation": "Consultant",
         "bloodgrp": "B+"
@@ -127,7 +127,7 @@ const getEmployees = () => {
     {
         "ID": 2,
         "who": "Debopoma",
-        "phone": "9783491116",
+        "phone": "9892814902",
         "pic": "Debo.jpg",
         "designation": "Senior Engg Consultant",
         "bloodgrp": "A+"
