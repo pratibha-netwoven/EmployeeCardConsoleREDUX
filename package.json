@@ -1,0 +1,22 @@
+{
+  "name": "contactcardwithredux",
+  "version": "1.0.0",
+  "description": "a node js console application with redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratibha-netwoven/EmployeeContactCardWithRedux.git"
+  },
+  "author": "Pratibha Krishnan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pratibha-netwoven/EmployeeContactCardWithRedux/issues"
+  },
+  "homepage": "https://github.com/pratibha-netwoven/EmployeeContactCardWithRedux#readme",
+  "dependencies": {
+    "redux": "^3.7.2"
+  }
+}
