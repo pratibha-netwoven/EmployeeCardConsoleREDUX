@@ -154,9 +154,11 @@ const getEmployees = () => {
 }
 
 const employeeContactReducer = (state, action) => {
+    
+    // let newstate = {...state};
     let newstate = state;
     //console.log(state);
-    var array = newstate.employeeArr;
+    let array = newstate.employeeArr;
     switch (action.type) {
         case 'GETBYID':
             //do nothing
@@ -165,8 +167,8 @@ const employeeContactReducer = (state, action) => {
             // newstate.updateEmployeeObj = currentEmployee;
             break;
         case 'ADD':
-            var maxIndex = Math.max.apply(Math, array.map((o) => { return o.ID; }));
-            action.newEmpData.ID = maxIndex + 1;
+            let maxIndex = Math.max.apply(Math, array.map((o) => { return o.ID; }));
+            action.newEmpData.ID = maxIndex + 1;// do it in a place in service layer which will be called from here, dont do any calculation here
             array.push(action.newEmpData);
             break;
         case 'EDIT':
