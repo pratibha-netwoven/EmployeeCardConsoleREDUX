@@ -155,8 +155,8 @@ const getEmployees = () => {
 
 const employeeContactReducer = (state, action) => {
     
-    // let newstate = {...state};
-    let newstate = state;
+     let newstate = {...state};
+    // let newstate = state;
     //console.log(state);
     let array = newstate.employeeArr;
     switch (action.type) {
